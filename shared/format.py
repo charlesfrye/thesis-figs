@@ -3,6 +3,8 @@ import matplotlib as mpl
 
 LINEWIDTH = 4
 FONTSIZE = 16
+LABELSIZE = "x-large"
+TITLESIZE = "xx-large"
 
 cal_colors = ['#003262', '#FDB515']
 default_colors = [color["color"] for color in mpl.rcParamsDefault["axes.prop_cycle"][2:]]
